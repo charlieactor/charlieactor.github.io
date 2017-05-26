@@ -1,0 +1,26 @@
+#header{
+	z-index: 1;
+	border-radius: 5px;
+	height: 50px;
+	width: 1000px;
+	border: 2px solid black;
+	margin: 10px
+	background-color: #1a66e0
+}
+
+#body{
+	border-radius: 5px;
+	height: 1000px;
+	width: 1000px;
+	border: 2px solid black;
+	margin: 10px;
+	background-color: #5d01b2;
+}
+
+div>h3{
+	color: #eeff72;
+}
+
+p {
+	color: #ffffff;
+}

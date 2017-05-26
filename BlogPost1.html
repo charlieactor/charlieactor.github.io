@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		Charlie Actor's Blog
+	<link type = "text/css" rel = "stylesheet" href = "Blog.css"/>
+	</head>
+	<body>
+		<div id="header">
+		<h3>Switch vs. If/Else</h3>
+		</div>
+		<div id="body">
+			<p>If/else clauses and Switch can be used for similar situations in Java.
+			Sometimes it will make more sense to use Switch, other times to use if/else 
+			(though they can be used fairly interchangeably). 
+			
+			Both are used to define a condition. If that condition is true, the 
+			subsequent code block will run. If not, it will skip that code and go on to
+			the next block of code. 
+			
+			It would make more sense to use switch if many possible outcomes will
+			use the same code block. For instance, in Java the Hard Way, you program
+			a days in the month calculator. For this, 5 months have 30 days, 1 month 
+			has 28 days, and the rest have 31 days.
+			
+			If coding this using if/else clauses, we'd have to write the same code
+			many times. However, with Switch, we can say: For cases 4, 6, 9, and 11:
+			print out "30 days". For case 2, print out "28 days". Default: "31 days".
+			This saves many lines of code! Yay switch!
+
+	</body>
+</html>
